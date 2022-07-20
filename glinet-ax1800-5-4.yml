@@ -47,5 +47,26 @@ packages:
   - luci-app-xlnetacc
   - luci-app-appfilter
   - luci-app-cpufreq
+  - luci-app-samba4
+  - luci-app-sqm
+  - luci-app-advancedsetting
+  - luci-app-ttyd
+  - luci-app-unblockneteasemusic
+  - luci-app-syncdial
+  - luci-app-passwall
+  - luci-app-ssr-plus
+  - luci-app-aliddns
+  - luci-app-ddns
+  - luci-app-eqos
+  - luci-app-filetransfer
+  - luci-app-ddnsto
+  - luci-app-mwan3
+  - luci-app-mwan3helper
+  - luci-app-wrtbwmon
+  - luci-app-serverchan
+  - luci-app-transmission
+  - luci-app-dailybonus
+  - luci-app-frpc
+  - luci-app-frps
 diffconfig: |
   CONFIG_KERNEL_IPQ_MEM_PROFILE=0

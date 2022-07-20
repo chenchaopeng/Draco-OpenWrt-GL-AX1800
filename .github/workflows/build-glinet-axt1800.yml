@@ -167,7 +167,7 @@ jobs:
         touch release.txt
         echo "## 📦‍ 固件下载 | GLINET AXT1800" >> release.txt
         [ $UPLOAD_WETRANSFER = true ] && echo "- 🔗 [WeTransfer](${{ steps.wetransfer.outputs.url }})" >> release.txt
-        echo -e "## ✨ 主要功能\n1. argon主题\n2. argon主题设置\n3. 释放内存\n4. wol 网络唤醒\n5. 磁盘管理工具\n6. smartdns DNS防污染\n7. clash的图形代理软件\n8. aria2下载工具\n9. ZeroTier内网穿透\n10. Turbo ACC 网络加速(支持 Fast Path 或者 硬件 NAT)\n11. 迅雷快鸟\n12. 应用过滤\n13. CPU 性能优化调节" >> release.txt
+        echo -e "## ✨ 主要功能\n1. argon主题\n2. argon主题设置\n3. 释放内存\n4. wol 网络唤醒\n5. 磁盘管理工具\n6. smartdns DNS防污染\n7. clash的图形代理软件\n8. aria2下载工具\n9. ZeroTier内网穿透\n10. Turbo ACC 网络加速(支持 Fast Path 或者 硬件 NAT)\n11. 迅雷快鸟\n12. 应用过滤\n13. CPU 性能优化调节\n14. samba4文件共享\n15. 流量智能队列管理(QOS)\n16. 系统高级设置\n17. ttyd 终端\n18. 解锁网易云音乐 (无界面)\n19. 多拨虚拟网卡（需要光猫支持多拨）\n20. passwall代理软件\n21. ssr-plus 代理软件\n22. 阿里云ddns插件\n23. 动态域名 DDNS\n24. 依IP地址限速\n25. 文件传输\n26. DDNSTO 内网穿透\n27. MWAN3负载均衡\n28. MWAN3分流助手\n29. 实时流量监测\n30. 微信/Telegram推送\n31. BT下载工具\n32. 京东签到服务\n33. frpc 网络代理\n34. frps 网络代理" >> release.txt
         echo "::set-output name=status::success"
 
     - name: Upload firmware to release
