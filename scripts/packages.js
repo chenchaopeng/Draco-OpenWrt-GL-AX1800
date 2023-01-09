@@ -89,10 +89,10 @@ module.exports = [
 //     name: 'luci-app-passwall',
 //     desc: 'passwall代理软件',
 //   },
-//   {
-//     name: 'luci-app-ssr-plus',
-//     desc: 'ssr-plus 代理软件',
-//   },
+   {
+     name: 'luci-app-ssr-plus',
+     desc: 'ssr-plus 代理软件',
+   },
 //   {
 //     name: 'luci-app-aliddns',
 //     desc: '阿里云ddns插件',
@@ -109,10 +109,10 @@ module.exports = [
 //     name: 'luci-app-filetransfer',
 //     desc: '文件传输',
 //   },
-//   {
-//     name: 'luci-app-ddnsto',
-//     desc: 'DDNSTO 内网穿透',
-//   },
+   {
+     name: 'luci-app-ddnsto',
+     desc: 'DDNSTO 内网穿透',
+   },
 //   {
 //     name: 'luci-app-mwan3',
 //     desc: 'MWAN3负载均衡',
