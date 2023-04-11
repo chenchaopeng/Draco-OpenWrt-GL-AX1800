@@ -21,7 +21,7 @@ feeds:
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: aae2ff1e4316c6bca7f12ebb4197ea4d63a517c6
+    revision: bca0109ed79f2b69ca97c0491399f4ce5ce74b86
   - name: immortalwrt_luci
     uri: https://github.com/immortalwrt/luci.git
     branch: openwrt-21.02
@@ -29,7 +29,7 @@ feeds:
   - name: small_package
     uri: https://github.com/kenzok8/small-package.git
     branch: main
-    revision: 41b2f63dfd2f504e97708a336d2e5cbfb4b69c16
+    revision: 5612ccbb76517abca8f8248b941013956ccf0cdf
 include: []
 packages:
   - kmod-hwmon-pwmfan
@@ -37,6 +37,7 @@ packages:
   - wireless-regdb
   - wget-ssl
   - kmod-wireguard-backport
+  - wpad-openssl
   - luci-theme-argon
   - luci-app-argon-config
   - luci-app-ramfree
@@ -52,3 +53,6 @@ packages:
   - luci-app-ttyd
   - luci-app-serverchan
   - luci-app-transmission
+diffconfig: |
+  CONFIG_PACKAGE_wpad-basic=n
+  CONFIG_PACKAGE_wpad=n
