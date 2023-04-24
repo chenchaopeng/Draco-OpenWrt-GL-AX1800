@@ -29,7 +29,7 @@ feeds:
   - name: small_package
     uri: https://github.com/kenzok8/small-package.git
     branch: main
-    revision: dff38c2188bbd1cb320a43d51d5e9a3731b2c92b
+    revision: d135cf45bb53fc557e8476b20a962f015d4b8984
 include: []
 packages:
   - kmod-hwmon-pwmfan
